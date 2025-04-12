@@ -18,6 +18,7 @@ export interface WeatherData {
     feels_like: number;
     temp_min: number;
     temp_max: number;
+    humidity: number;
   };
   wind: {
     speed: number;
